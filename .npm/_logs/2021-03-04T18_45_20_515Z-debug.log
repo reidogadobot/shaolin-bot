@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/data/data/com.termux/files/usr/bin/node',
+1 verbose cli   '/data/data/com.termux/files/usr/bin/npm',
+1 verbose cli   'start'
+1 verbose cli ]
+2 info using npm@6.14.10
+3 info using node@v14.15.4
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle Caussbot@0.0.2~prestart: Caussbot@0.0.2
+6 info lifecycle Caussbot@0.0.2~start: Caussbot@0.0.2
+7 verbose lifecycle Caussbot@0.0.2~start: unsafe-perm in lifecycle true
+8 verbose lifecycle Caussbot@0.0.2~start: PATH: /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/storage/emulated/0/Caussz-main/node_modules/.bin:/data/data/com.termux/files/usr/bin:/data/data/com.termux/files/usr/bin/applets
+9 verbose lifecycle Caussbot@0.0.2~start: CWD: /storage/emulated/0/Caussz-main
+10 silly lifecycle Caussbot@0.0.2~start: Args: [ '-c', 'node index.js' ]
+11 silly lifecycle Caussbot@0.0.2~start: Returned: code: 1  signal: null
+12 info lifecycle Caussbot@0.0.2~start: Failed to exec start script
+13 verbose stack Error: Caussbot@0.0.2 start: `node index.js`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:315:20)
+13 verbose stack     at ChildProcess.<anonymous> (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:315:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1048:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+14 verbose pkgid Caussbot@0.0.2
+15 verbose cwd /storage/emulated/0/Caussz-main
+16 verbose Linux 3.18.71-perf-g5ea0e78
+17 verbose argv "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/bin/npm" "start"
+18 verbose node v14.15.4
+19 verbose npm  v6.14.10
+20 error code ELIFECYCLE
+21 error errno 1
+22 error Caussbot@0.0.2 start: `node index.js`
+22 error Exit status 1
+23 error Failed at the Caussbot@0.0.2 start script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
